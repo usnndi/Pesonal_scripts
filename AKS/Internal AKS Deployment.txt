@@ -1,0 +1,23 @@
+https://clemenssiebler.com/deploying-internal-applications-with-private-ips-on-azure-kubernetes-service-aks/
+
+az group create --name "RSINEXGENAKS-RG" --location centralus
+
+az network vnet create --resource-group "RSINEXGENAKS-RG" --name "RSINEXGENAKS-VN" --address-prefix 172.18.8.0/22 --subnet-name AKSCluster --subnet-prefix 172.18.11.0/24
+
+az ad sp create-for-rbac --name RSINEXGENAKS-SP
+
+  "appId": "d4708ae9-0668-41ac-9569-4c1d18dce5c3",
+  "displayName": "RSINEXGENAKS-SP",
+  "name": "http://RSINEXGENAKS-SP",
+  "password": "B99ntRS5snOtlOmU5ZJz.MaAB.AM_P7BGq",
+  "tenant": "605f2c76-9289-4031-a18e-12f11153bf1a"
+
+
+az aks create --name NEXGEN-AKS --resource-group "RSINEXGENAKS-RG" --location centralus --node-count 1 --vnet-subnet-id  "/subscriptions/1f46ad95-713e-40d9-a5d1-2454b33dee10/resourceGroups/RSINEXGENAKS-RG/providers/Microsoft.Network/virtualNetworks/RSINEXGENAKS-VN/subnets/akscluster" --dns-name-prefix NEXGEN-AKS-CLUSTER --assign-identity "RSINEXGENAKS-SP"
+
+az aks get-credentials --resource-group "RSINEXGENAKS-RG" --name "NEXGEN-AKS"
+Merged "NEXGEN-AKS" as current context in /Users/csiebler/.kube/config
+
+kubectl get nodes
+
+cat ~/.azure/aksServicePrincipal.json

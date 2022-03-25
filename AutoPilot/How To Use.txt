@@ -1,0 +1,1 @@
+I did run them with the OS installed and through OOBE stage you can get to the command prompt by pressing , press Shift + F10

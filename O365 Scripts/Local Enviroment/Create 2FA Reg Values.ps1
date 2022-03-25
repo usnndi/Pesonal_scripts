@@ -1,0 +1,2 @@
+﻿New-ItemProperty -Path HKCU:SOFTWARE\Microsoft\Office\16.0\Common\Identity -Name EnableADAL -Value 1 -PropertyType DWORD -Force
+New-ItemProperty -Path HKCU:SOFTWARE\Microsoft\Office\16.0\Common\Identity -Name Version -Value 1 -PropertyType DWORD -Force

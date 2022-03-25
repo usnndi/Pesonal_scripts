@@ -1,0 +1,133 @@
+Migrate,Mailbox,Username,SamAccountName,Name,cn,sn,title,Department,EMail,StreetAddress,City,State,PostalCode,Country,OfficePhone,Fax
+Y,USER,apalmer,apalmer,Adam Palmer,Adam,Palmer,,Project Management,apalmer@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,acurry,acurry,Alex Curry,Alex,Curry,,Project Management,acurry@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,alindsey,alindsey,Alex Lindsey,Alex,Lindsey,,,alindsey@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,acanfield,acanfield,Amanda Canfield,Amanda,Canfield,,Accounting,acanfield@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,aaddy,aaddy,Andrew Addy,Andrew,Addy,,,aaddy@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,abuerger,abuerger,Andrew Buerger,Andrew,Buerger,,Project Management,abuerger@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,ayarber,ayarber,Andy Yarber,Andy,Yarber,,Marketing,ayarber@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,airwin,airwin,Ashton Irwin,Ashton,Irwin,,,airwin@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,bzietlow,bzietlow,Betsy Zietlow,Betsy,Zietlow,,Accounting,betsyz@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,bclingan,bclingan,Blake Clingan,Blake,Clingan,,Unassigned,bclingan@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,bsimon,bsimon,Blake Simon,Blake,Simon,,Project Management,bsimon@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,bkrueger,bkrueger,Brad Krueger,Brad,Krueger,,Project Management,bkrueger@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,bcrowley,bcrowley,Brendan Crowley,Brendan,Crowley,,,bcrowley@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,bdidiano,bdidiano,Brian DiDiano,Brian,DiDiano,,,BrianD@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,blucas,blucas,Brian Lucas,Brian,Lucas,,Unassigned,blucas@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,bgorham,bgorham,Bunky Gorham,Bunky,Gorham,,,bgorham@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,crisch,crisch,Chad Risch,Chad,Risch,,Project Management,crisch@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,ckingery,ckingery,Charley Kingery,Charley,Kingery,,Marketing,ckingery@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,cpatel,cpatel,Chintan Patel,Chintan,Patel,,Project Management,cpatel@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,cjurkoshek,cjurkoshek,Chris Jurkoshek,Chris,Jurkoshek,,Project Management,chrisj@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,crudolph,crudolph,Chris Rudolph,Chris,Rudolph,,Project Management,crudolph@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,csadowski,csadowski,Chris Sadowski,Chris,Sadowski,,Project Management,csadowski@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,cthornton,cthornton,Chris Thornton,Chris,Thornton,,,cthornton@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,cryan,cryan,Christian Ryan,Christian,Ryan,,Project Management,cryan@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,cbone,cbone,Christopher Bone,Christopher,Bone,,,cbone@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,ccarlton,ccarlton,Colton Carlton,Colton,Carlton,,Unassigned,ccarlton@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,cwieland,cwieland,Craig Wieland,Craig,Wieland,,Project Management,cw@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,cbarnum,cbarnum,Crystal Barnum,Crystal,Barnum,,Accounting,cbarnum@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dstarr,dstarr,Damian Starr,Damian,Starr,,Project Management,dstarr@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dlortie,dlortie,Damon Lortie,Damon,Lortie,,Project Management,dlortie@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dmurphy,dmurphy,Dan Murphy,Dan,Murphy,,,dmurphy@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dacton,dacton,Daniel Acton,Daniel,Acton,,,dacton@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dmenig,dmenig,Daniel Menig,Daniel,Menig,,,dmenig@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dsol,dsol,Daniel Sol,Daniel,Sol,,,dsol@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dsprague,dsprague,Daniel Sprague,Daniel,Sprague,,,dsprague@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dtodd,dtodd,Dave Todd,Dave,Todd,,Project Management,dtodd@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dkalmbach,dkalmbach,Deana Kalmbach,Deana,Kalmbach,,Project Management,dkalmbach@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dpentecost,dpentecost,Debbie Pentecost,Debbie,Pentecost,,,dpentecost@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,danderson,danderson,Dennis Anderson,Dennis,Anderson,,IT Support,danderson@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,djardine,djardine,Don Jardine,Don,Jardine,,Unassigned,djardine@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,dwaldrop,dwaldrop,Doug Waldrop,Doug,Waldrop,,Unassigned,dwaldrop@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,elorenz,elorenz,Ed Lorenz,Ed,Lorenz,,Project Management,elorenz@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,edejaegher,edejaegher,Eric DeJaegher,Eric,DeJaegher,,Project Management,ericd@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,ekleeman,ekleeman,Eric Kleeman,Eric,Kleeman,,Unassigned,ekleeman@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,ezimny,ezimny,Eric Zimny,Eric,Zimny,,,ezimny@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,gprobert,gprobert,Gary Probert,Gary,Probert,,Project Management,gprobert@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,groberson,groberson,Gerald Roberson,Gerald,Roberson,,,groberson@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,gmassey,gmassey,Greg Massey,Greg,Massey,,Unassigned,gmassey@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,gvandeberg,gvandeberg,Gunnar Vandeberg,Gunnar,Vandeberg,,Unassigned,gunnarv@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,support,support,IT Support,IT,Support,,Unassigned,support@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jhunt,jhunt,Jacob Hunt,Jacob,Hunt,,Project Management,jhunt@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jbuchleitner,jbuchleitner,Jason Buchleitner,Jason,Buchleitner,,,jasonb@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jhart,jhart,Jeff Hart,Jeff,Hart,,Unassigned,jhart@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jvandenburg,jvandenburg,Jeff Vandenburg,Jeff,Vandenburg,,Unassigned,jeffv@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jennywieland,jennywieland,Jenny Wieland,Jenny,Wieland,,Unassigned,jenny@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jkirkland,jkirkland,Jerry Kirkland,Jerry,Kirkland,,Project Management,jkirkland@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jrisch,jrisch,Jerry Risch,Jerry,Risch,,Unassigned,jrisch@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jwieland,jwieland,Jesse Wieland,Jesse,Wieland,,Unassigned,jwieland@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jflanagan,jflanagan,Jim Flanagan,Jim,Flanagan,,,jflanagan@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jsiegrist,jsiegrist,Jim Siegrist,Jim,Siegrist,,Unassigned,jsiegrist@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jlorenz,jlorenz,Joe Lorenz,Joe,Lorenz,,Project Management,jlorenz@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jwaters,jwaters,John Waters,John,Waters,,,jwaters@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jwhite,jwhite,John White,John,White,,Project Management,jwhite@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jsmith,jsmith,JohnL Smith,JohnL,Smith,,,jlsmith@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jmcnabb,jmcnabb,Jonathan McNabb,Jonathan,McNabb,,Project Management,jmcnabb@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jtvandenburg,jtvandenburg,Joseph Vandenburg,Joseph,Vandenburg,,,josephv@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jkarrels,jkarrels,Josh Karrels,Josh,Karrels,,,jkarrels@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jpearce,jpearce,Juanita Pearce,Juanita,Pearce,,Accounting,jpearce@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jsun,jsun,Judy Sun,Judy,Sun,,Project Management,jsun@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jlucas,jlucas,Julie Lucas,Julie,Lucas,,,jlucas@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,jpark,jpark,Justin Park,Justin,Park,,Project Management,jpark@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,kmcfall,kmcfall,Kari McFall,Kari,McFall,,Marketing,kmcfall@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,kporter,kporter,Katie Porter,Katie,Porter,,,kporter@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,kivkovich,kivkovich,Keith Ivkovich,Keith,Ivkovich,,Unassigned,keithi@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,kshaw,kshaw,Kevin Shaw,Kevin,Shaw,,Marketing,kshaw@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,kpiraino,kpiraino,Kristina Piraino,Kristina,Piraino,,,kpiraino@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,ksmith,ksmith,Krysta Smith,Krysta,Smith,,,ksmith@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,kheadrick,kheadrick,Kyle Headrick,Kyle,Headrick,,,kheadrick@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,lcasey,lcasey,Landon Casey,Landon,Casey,,Unassigned,lcasey@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,lholley,lholley,Larry Holley,Larry,Holley,,Project Management,lholley@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,lrogers,lrogers,Logan Rogers,Logan,Rogers,,Project Management,lrogers@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mlucci,mlucci,Madeline Lucci,Madeline,Lucci,,,mlucci@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mbone,mbone,Mark Bone,Mark,Bone,,,mbone@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mmyers,mmyers,Mark Myers,Mark,Myers,,,mmyers@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mvandeventer,mvandeventer,Mark Vandeventer,Mark,Vandeventer,,Unassigned,markv@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mgetchell,mgetchell,Matt Getchell,Matt,Getchell,,Project Management,mattg@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mhinote,mhinote,Matt Hinote,Matt,Hinote,,Project Management,mhinote@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mthibodeaux,mthibodeaux,Matt Thibodeaux,Matt,Thibodeaux,,,MattT@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mcohen,mcohen,Matthew Cohen,Matthew,Cohen,,,mcohen@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mdevota,mdevota,Maureen Devota,Maureen,Devota,,Accounting,mdevota@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mevery,mevery,Megan Every,Megan,Every,,Accounting,mevery@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mstolz,mstolz,Michael Stolz,Michael,Stolz,,,mstolz@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mrabe,mrabe,Mick Rabe,Mick,Rabe,,,mrabe@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mdrayer,mdrayer,Mike Drayer,Mike,Drayer,,Unassigned,mdrayer@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mgapik,mgapik,Mike Gapik,Mike,Gapik,,Project Management,mgapik@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mjohnson,mjohnson,Mike Johnson,Mike,Johnson,,Project Management,mjohnson@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mlukasik,mlukasik,Mike Lukasik,Mike,Lukasik,,Project Management,mlukasik@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mmead,mmead,Mike Mead,Mike,Mead,,IT Support,mmead@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,mroeser,mroeser,Mike Roeser,Mike,Roeser,,Project Management,mroeser@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,nfarhat,nfarhat,Norman Farhat,Norman,Farhat,,Marketing,nfarhat@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,rdempsey,rdempsey,Regan Dempsey,Regan,Dempsey,,,rdempsey@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,revery,revery,Rhonda Every,Rhonda,Every,,Unassigned,revery@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,rfranck,rfranck,Rhonda Franck,Rhonda,Franck,,,rfranck@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,rdick,rdick,Rob Dick,Rob,Dick,,Unassigned,rdick@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,rkrueger,rkrueger,Rob Krueger,Rob,Krueger,,Project Management,rkrueger@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,rhansen,rhansen,Ron Hansen,Ron,Hansen,,Project Management,ronh@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,rlindner,rlindner,Ryan Lindner,Ryan,Lindner,,Project Management,rlindner@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,rroberts,rroberts,Ryan Roberts,Ryan,Roberts,,Project Management,rroberts@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,sbakshi,sbakshi,Sahil Bakshi,Sahil,Bakshi,,,sbakshi@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,sgibson,sgibson,Sam Gibson,Sam,Gibson,,,sgibson@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,swinkler,swinkler,Sandy Winkler,Sandy,Winkler,,,swinkler@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,sstokes,sstokes,Sarah Stokes,Sarah,Stokes,,,sstokes@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,smason,smason,Scott Mason,Scott,Mason,,Project Management,smason@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,snoel,snoel,Scott Noel,Scott,Noel,,,snoel@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,swieland,swieland,Scott Wieland,Scott,Wieland,,Unassigned,swieland@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,sdevota,sdevota,Shane Devota,Shane,Devota,,Unassigned,sdevota@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,smartbidnet,smartbidnet,SmartBidNet,SmartBidNet,,,,sbn@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,sprice,sprice,Spenser Price,Spenser,Price,,Project Management,sprice@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,sopper,sopper,Steve Opper,Steve,Opper,,Marketing,sopper@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,swright,swright,Steven Wright,Steven,Wright,,Project Management,swright@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,tnemeth,tnemeth,Taylor Nemeth,Taylor,Nemeth,,,tnemeth@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,tbourque,tbourque,Thomas Bourque,Thomas,Bourque,,,tbourque@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,thawkins,thawkins,Tim Hawkins,Tim,Hawkins,,,thawkins@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,tcochran,tcochran,Tom Cochran,Tom,Cochran,,Unassigned,tcochran@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,tgreen,tgreen,Tom Green,Tom,Green,,,tgreen@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,tsmith,tsmith,Tom Smith,Tom,Smith,,Unassigned,tsmith@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,thampton,thampton,Ty Hampton,Ty,Hampton,,,thampton@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,tbuxton,tbuxton,Tyler Buxton,Tyler,Buxton,,Unassigned,tbuxton@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,wschacht,wschacht,Warren Schacht,Warren,Schacht,,,wschacht@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,scans,scans,Wieland Scans,Wieland,Scans,,,Scans@wieland-davco.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,wbelanger,wbelanger,Will Belanger,Will,Belanger,,,wbelanger@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961
+Y,USER,zmead,zmead,Zach Mead,Zach,Mead,,,zachm@wielandbuilds.com,4162 English Oak Dr,Lansing,MI,48911,US,517-372-8650,517-372-8961

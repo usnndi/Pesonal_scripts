@@ -1,0 +1,1 @@
+./Set-ArmVmAvailabilitySet.ps1 –VmName ‘The VM Name’ –ResourceGroup ‘Resource Group’ –AvailabilitySetName 0 –SubscriptionName  ‘The Subscription name’

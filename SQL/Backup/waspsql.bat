@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft SQL Server\90\Tools\Binn\SQLCMD.EXE" -S tcp:USALBCINCI\WASPDBEXPRESS -U sa -P 3nvironm3nt -i C:\Scripts\waspscriptbackupAddDate.sql

@@ -1,0 +1,133 @@
+Migrate,Mailbox,Username,SamAccountName,Name,cn,sn,title,Department,EMail,SMTP,SMTP2
+Y,USER,apalmer,apalmer,Adam Palmer,Adam,Palmer,,Project Management,apalmer@wielandbuilds.com,SMTP:apalmer@wielandbuilds.com,smtp:Adam.Palmer@wieland-davco.com
+Y,USER,acurry,acurry,Alex Curry,Alex,Curry,,Project Management,acurry@wielandbuilds.com,SMTP:acurry@wielandbuilds.com,smtp:Alex.Curry@wieland-davco.com
+Y,USER,alindsey,alindsey,Alex Lindsey,Alex,Lindsey,,,alindsey@wielandbuilds.com,SMTP:alindsey@wielandbuilds.com,smtp:Alex.Lindsey@wieland-davco.com
+Y,USER,acanfield,acanfield,Amanda Canfield,Amanda,Canfield,,Accounting,acanfield@wielandbuilds.com,SMTP:acanfield@wielandbuilds.com,smtp:Amanda.Canfield@wieland-davco.com
+Y,USER,aaddy,aaddy,Andrew Addy,Andrew,Addy,,,aaddy@wielandbuilds.com,SMTP:aaddy@wielandbuilds.com,smtp:Andrew.Addy@wieland-davco.com
+Y,USER,abuerger,abuerger,Andrew Buerger,Andrew,Buerger,,Project Management,abuerger@wielandbuilds.com,SMTP:abuerger@wielandbuilds.com,smtp:Andrew.Buerger@wieland-davco.com
+Y,USER,ayarber,ayarber,Andy Yarber,Andy,Yarber,,Marketing,ayarber@wielandbuilds.com,SMTP:ayarber@wielandbuilds.com,smtp:Andy.Yarber@wieland-davco.com
+Y,USER,airwin,airwin,Ashton Irwin,Ashton,Irwin,,,airwin@wielandbuilds.com,SMTP:airwin@wielandbuilds.com,smtp:Ashton.Irwin@wieland-davco.com
+Y,USER,bzietlow,bzietlow,Betsy Zietlow,Betsy,Zietlow,,Accounting,betsyz@wielandbuilds.com,SMTP:betsyz@wielandbuilds.com,smtp:Betsy.Zietlow@wieland-davco.com
+Y,USER,bclingan,bclingan,Blake Clingan,Blake,Clingan,,Unassigned,bclingan@wielandbuilds.com,SMTP:bclingan@wielandbuilds.com,smtp:Blake.Clingan@wieland-davco.com
+Y,USER,bsimon,bsimon,Blake Simon,Blake,Simon,,Project Management,bsimon@wielandbuilds.com,SMTP:bsimon@wielandbuilds.com,smtp:Blake.Simon@wieland-davco.com
+Y,USER,bkrueger,bkrueger,Brad Krueger,Brad,Krueger,,Project Management,bkrueger@wielandbuilds.com,SMTP:bkrueger@wielandbuilds.com,smtp:Brad.Krueger@wieland-davco.com
+Y,USER,bcrowley,bcrowley,Brendan Crowley,Brendan,Crowley,,,bcrowley@wielandbuilds.com,SMTP:bcrowley@wielandbuilds.com,smtp:Brendan.Crowley@wieland-davco.com
+Y,USER,bdidiano,bdidiano,Brian DiDiano,Brian,DiDiano,,,BrianD@wielandbuilds.com,SMTP:BrianD@wielandbuilds.com,smtp:Brian.DiDiano@wieland-davco.com
+Y,USER,blucas,blucas,Brian Lucas,Brian,Lucas,,Unassigned,blucas@wielandbuilds.com,SMTP:blucas@wielandbuilds.com,smtp:Brian.Lucas@wieland-davco.com
+Y,USER,bgorham,bgorham,Bunky Gorham,Bunky,Gorham,,,bgorham@wielandbuilds.com,SMTP:bgorham@wielandbuilds.com,smtp:Bunky.Gorham@wieland-davco.com
+Y,USER,crisch,crisch,Chad Risch,Chad,Risch,,Project Management,crisch@wielandbuilds.com,SMTP:crisch@wielandbuilds.com,smtp:Chad.Risch@wieland-davco.com
+Y,USER,ckingery,ckingery,Charley Kingery,Charley,Kingery,,Marketing,ckingery@wielandbuilds.com,SMTP:ckingery@wielandbuilds.com,smtp:Charley.Kingery@wieland-davco.com
+Y,USER,cpatel,cpatel,Chintan Patel,Chintan,Patel,,Project Management,cpatel@wielandbuilds.com,SMTP:cpatel@wielandbuilds.com,smtp:Chintan.Patel@wieland-davco.com
+Y,USER,cjurkoshek,cjurkoshek,Chris Jurkoshek,Chris,Jurkoshek,,Project Management,chrisj@wielandbuilds.com,SMTP:chrisj@wielandbuilds.com,smtp:Chris.Jurkoshek@wieland-davco.com
+Y,USER,crudolph,crudolph,Chris Rudolph,Chris,Rudolph,,Project Management,crudolph@wielandbuilds.com,SMTP:crudolph@wielandbuilds.com,smtp:Chris.Rudolph@wieland-davco.com
+Y,USER,csadowski,csadowski,Chris Sadowski,Chris,Sadowski,,Project Management,csadowski@wielandbuilds.com,SMTP:csadowski@wielandbuilds.com,smtp:Chris.Sadowski@wieland-davco.com
+Y,USER,cthornton,cthornton,Chris Thornton,Chris,Thornton,,,cthornton@wielandbuilds.com,SMTP:cthornton@wielandbuilds.com,smtp:Chris.Thornton@wieland-davco.com
+Y,USER,cryan,cryan,Christian Ryan,Christian,Ryan,,Project Management,cryan@wielandbuilds.com,SMTP:cryan@wielandbuilds.com,smtp:Christian.Ryan@wieland-davco.com
+Y,USER,cbone,cbone,Christopher Bone,Christopher,Bone,,,cbone@wielandbuilds.com,SMTP:cbone@wielandbuilds.com,smtp:Christopher.Bone@wieland-davco.com
+Y,USER,ccarlton,ccarlton,Colton Carlton,Colton,Carlton,,Unassigned,ccarlton@wielandbuilds.com,SMTP:ccarlton@wielandbuilds.com,smtp:Colton.Carlton@wieland-davco.com
+Y,USER,cwieland,cwieland,Craig Wieland,Craig,Wieland,,Project Management,cw@wielandbuilds.com,SMTP:cw@wielandbuilds.com,smtp:Craig.Wieland@wieland-davco.com
+Y,USER,cbarnum,cbarnum,Crystal Barnum,Crystal,Barnum,,Accounting,cbarnum@wielandbuilds.com,SMTP:cbarnum@wielandbuilds.com,smtp:Crystal.Barnum@wieland-davco.com
+Y,USER,dstarr,dstarr,Damian Starr,Damian,Starr,,Project Management,dstarr@wielandbuilds.com,SMTP:dstarr@wielandbuilds.com,smtp:Damian.Starr@wieland-davco.com
+Y,USER,dlortie,dlortie,Damon Lortie,Damon,Lortie,,Project Management,dlortie@wielandbuilds.com,SMTP:dlortie@wielandbuilds.com,smtp:Damon.Lortie@wieland-davco.com
+Y,USER,dmurphy,dmurphy,Dan Murphy,Dan,Murphy,,,dmurphy@wielandbuilds.com,SMTP:dmurphy@wielandbuilds.com,smtp:Dan.Murphy@wieland-davco.com
+Y,USER,dacton,dacton,Daniel Acton,Daniel,Acton,,,dacton@wielandbuilds.com,SMTP:dacton@wielandbuilds.com,smtp:Daniel.Acton@wieland-davco.com
+Y,USER,dmenig,dmenig,Daniel Menig,Daniel,Menig,,,dmenig@wielandbuilds.com,SMTP:dmenig@wielandbuilds.com,smtp:Daniel.Menig@wieland-davco.com
+Y,USER,dsol,dsol,Daniel Sol,Daniel,Sol,,,dsol@wielandbuilds.com,SMTP:dsol@wielandbuilds.com,smtp:Daniel.Sol@wieland-davco.com
+Y,USER,dsprague,dsprague,Daniel Sprague,Daniel,Sprague,,,dsprague@wielandbuilds.com,SMTP:dsprague@wielandbuilds.com,smtp:Daniel.Sprague@wieland-davco.com
+Y,USER,dtodd,dtodd,Dave Todd,Dave,Todd,,Project Management,dtodd@wielandbuilds.com,SMTP:dtodd@wielandbuilds.com,smtp:Dave.Todd@wieland-davco.com
+Y,USER,dkalmbach,dkalmbach,Deana Kalmbach,Deana,Kalmbach,,Project Management,dkalmbach@wielandbuilds.com,SMTP:dkalmbach@wielandbuilds.com,smtp:Deana.Kalmbach@wieland-davco.com
+Y,USER,dpentecost,dpentecost,Debbie Pentecost,Debbie,Pentecost,,,dpentecost@wielandbuilds.com,SMTP:dpentecost@wielandbuilds.com,smtp:Debbie.Pentecost@wieland-davco.com
+Y,USER,danderson,danderson,Dennis Anderson,Dennis,Anderson,,IT Support,danderson@wielandbuilds.com,SMTP:danderson@wielandbuilds.com,smtp:Dennis.Anderson@wieland-davco.com
+Y,USER,djardine,djardine,Don Jardine,Don,Jardine,,Unassigned,djardine@wielandbuilds.com,SMTP:djardine@wielandbuilds.com,smtp:Don.Jardine@wieland-davco.com
+Y,USER,dwaldrop,dwaldrop,Doug Waldrop,Doug,Waldrop,,Unassigned,dwaldrop@wielandbuilds.com,SMTP:dwaldrop@wielandbuilds.com,smtp:Doug.Waldrop@wieland-davco.com
+Y,USER,elorenz,elorenz,Ed Lorenz,Ed,Lorenz,,Project Management,elorenz@wielandbuilds.com,SMTP:elorenz@wielandbuilds.com,smtp:Ed.Lorenz@wieland-davco.com
+Y,USER,edejaegher,edejaegher,Eric DeJaegher,Eric,DeJaegher,,Project Management,ericd@wielandbuilds.com,SMTP:ericd@wielandbuilds.com,smtp:Eric.DeJaegher@wieland-davco.com
+Y,USER,ekleeman,ekleeman,Eric Kleeman,Eric,Kleeman,,Unassigned,ekleeman@wielandbuilds.com,SMTP:ekleeman@wielandbuilds.com,smtp:Eric.Kleeman@wieland-davco.com
+Y,USER,ezimny,ezimny,Eric Zimny,Eric,Zimny,,,ezimny@wielandbuilds.com,SMTP:ezimny@wielandbuilds.com,smtp:Eric.Zimny@wieland-davco.com
+Y,USER,gprobert,gprobert,Gary Probert,Gary,Probert,,Project Management,gprobert@wielandbuilds.com,SMTP:gprobert@wielandbuilds.com,smtp:Gary.Probert@wieland-davco.com
+Y,USER,groberson,groberson,Gerald Roberson,Gerald,Roberson,,,groberson@wielandbuilds.com,SMTP:groberson@wielandbuilds.com,smtp:Gerald.Roberson@wieland-davco.com
+Y,USER,gmassey,gmassey,Greg Massey,Greg,Massey,,Unassigned,gmassey@wielandbuilds.com,SMTP:gmassey@wielandbuilds.com,smtp:Greg.Massey@wieland-davco.com
+Y,USER,gvandeberg,gvandeberg,Gunnar Vandeberg,Gunnar,Vandeberg,,Unassigned,gunnarv@wielandbuilds.com,SMTP:gunnarv@wielandbuilds.com,smtp:Gunnar.Vandeberg@wieland-davco.com
+Y,USER,support,support,IT Support,IT,Support,,Unassigned,support@wielandbuilds.com,SMTP:support@wielandbuilds.com,smtp:IT.Support@wieland-davco.com
+Y,USER,jhunt,jhunt,Jacob Hunt,Jacob,Hunt,,Project Management,jhunt@wielandbuilds.com,SMTP:jhunt@wielandbuilds.com,smtp:Jacob.Hunt@wieland-davco.com
+Y,USER,jbuchleitner,jbuchleitner,Jason Buchleitner,Jason,Buchleitner,,,jasonb@wielandbuilds.com,SMTP:jasonb@wielandbuilds.com,smtp:Jason.Buchleitner@wieland-davco.com
+Y,USER,jhart,jhart,Jeff Hart,Jeff,Hart,,Unassigned,jhart@wielandbuilds.com,SMTP:jhart@wielandbuilds.com,smtp:Jeff.Hart@wieland-davco.com
+Y,USER,jvandenburg,jvandenburg,Jeff Vandenburg,Jeff,Vandenburg,,Unassigned,jeffv@wielandbuilds.com,SMTP:jeffv@wielandbuilds.com,smtp:Jeff.Vandenburg@wieland-davco.com
+Y,USER,jennywieland,jennywieland,Jenny Wieland,Jenny,Wieland,,Unassigned,jenny@wielandbuilds.com,SMTP:jenny@wielandbuilds.com,smtp:Jenny.Wieland@wieland-davco.com
+Y,USER,jkirkland,jkirkland,Jerry Kirkland,Jerry,Kirkland,,Project Management,jkirkland@wielandbuilds.com,SMTP:jkirkland@wielandbuilds.com,smtp:Jerry.Kirkland@wieland-davco.com
+Y,USER,jrisch,jrisch,Jerry Risch,Jerry,Risch,,Unassigned,jrisch@wielandbuilds.com,SMTP:jrisch@wielandbuilds.com,smtp:Jerry.Risch@wieland-davco.com
+Y,USER,jwieland,jwieland,Jesse Wieland,Jesse,Wieland,,Unassigned,jwieland@wielandbuilds.com,SMTP:jwieland@wielandbuilds.com,smtp:Jesse.Wieland@wieland-davco.com
+Y,USER,jflanagan,jflanagan,Jim Flanagan,Jim,Flanagan,,,jflanagan@wielandbuilds.com,SMTP:jflanagan@wielandbuilds.com,smtp:Jim.Flanagan@wieland-davco.com
+Y,USER,jsiegrist,jsiegrist,Jim Siegrist,Jim,Siegrist,,Unassigned,jsiegrist@wielandbuilds.com,SMTP:jsiegrist@wielandbuilds.com,smtp:Jim.Siegrist@wieland-davco.com
+Y,USER,jlorenz,jlorenz,Joe Lorenz,Joe,Lorenz,,Project Management,jlorenz@wielandbuilds.com,SMTP:jlorenz@wielandbuilds.com,smtp:Joe.Lorenz@wieland-davco.com
+Y,USER,jwaters,jwaters,John Waters,John,Waters,,,jwaters@wielandbuilds.com,SMTP:jwaters@wielandbuilds.com,smtp:John.Waters@wieland-davco.com
+Y,USER,jwhite,jwhite,John White,John,White,,Project Management,jwhite@wielandbuilds.com,SMTP:jwhite@wielandbuilds.com,smtp:John.White@wieland-davco.com
+Y,USER,jsmith,jsmith,JohnL Smith,JohnL,Smith,,,jlsmith@wielandbuilds.com,SMTP:jlsmith@wielandbuilds.com,smtp:JohnL.Smith@wieland-davco.com
+Y,USER,jmcnabb,jmcnabb,Jonathan McNabb,Jonathan,McNabb,,Project Management,jmcnabb@wielandbuilds.com,SMTP:jmcnabb@wielandbuilds.com,smtp:Jonathan.McNabb@wieland-davco.com
+Y,USER,jtvandenburg,jtvandenburg,Joseph Vandenburg,Joseph,Vandenburg,,,josephv@wielandbuilds.com,SMTP:josephv@wielandbuilds.com,smtp:Joseph.Vandenburg@wieland-davco.com
+Y,USER,jkarrels,jkarrels,Josh Karrels,Josh,Karrels,,,jkarrels@wielandbuilds.com,SMTP:jkarrels@wielandbuilds.com,smtp:Josh.Karrels@wieland-davco.com
+Y,USER,jpearce,jpearce,Juanita Pearce,Juanita,Pearce,,Accounting,jpearce@wielandbuilds.com,SMTP:jpearce@wielandbuilds.com,smtp:Juanita.Pearce@wieland-davco.com
+Y,USER,jsun,jsun,Judy Sun,Judy,Sun,,Project Management,jsun@wielandbuilds.com,SMTP:jsun@wielandbuilds.com,smtp:Judy.Sun@wieland-davco.com
+Y,USER,jlucas,jlucas,Julie Lucas,Julie,Lucas,,,jlucas@wielandbuilds.com,SMTP:jlucas@wielandbuilds.com,smtp:Julie.Lucas@wieland-davco.com
+Y,USER,jpark,jpark,Justin Park,Justin,Park,,Project Management,jpark@wielandbuilds.com,SMTP:jpark@wielandbuilds.com,smtp:Justin.Park@wieland-davco.com
+Y,USER,kmcfall,kmcfall,Kari McFall,Kari,McFall,,Marketing,kmcfall@wielandbuilds.com,SMTP:kmcfall@wielandbuilds.com,smtp:Kari.McFall@wieland-davco.com
+Y,USER,kporter,kporter,Katie Porter,Katie,Porter,,,kporter@wielandbuilds.com,SMTP:kporter@wielandbuilds.com,smtp:Katie.Porter@wieland-davco.com
+Y,USER,kivkovich,kivkovich,Keith Ivkovich,Keith,Ivkovich,,Unassigned,keithi@wielandbuilds.com,SMTP:keithi@wielandbuilds.com,smtp:Keith.Ivkovich@wieland-davco.com
+Y,USER,kshaw,kshaw,Kevin Shaw,Kevin,Shaw,,Marketing,kshaw@wielandbuilds.com,SMTP:kshaw@wielandbuilds.com,smtp:Kevin.Shaw@wieland-davco.com
+Y,USER,kpiraino,kpiraino,Kristina Piraino,Kristina,Piraino,,,kpiraino@wielandbuilds.com,SMTP:kpiraino@wielandbuilds.com,smtp:Kristina.Piraino@wieland-davco.com
+Y,USER,ksmith,ksmith,Krysta Smith,Krysta,Smith,,,ksmith@wielandbuilds.com,SMTP:ksmith@wielandbuilds.com,smtp:Krysta.Smith@wieland-davco.com
+Y,USER,kheadrick,kheadrick,Kyle Headrick,Kyle,Headrick,,,kheadrick@wielandbuilds.com,SMTP:kheadrick@wielandbuilds.com,smtp:Kyle.Headrick@wieland-davco.com
+Y,USER,lcasey,lcasey,Landon Casey,Landon,Casey,,Unassigned,lcasey@wielandbuilds.com,SMTP:lcasey@wielandbuilds.com,smtp:Landon.Casey@wieland-davco.com
+Y,USER,lholley,lholley,Larry Holley,Larry,Holley,,Project Management,lholley@wielandbuilds.com,SMTP:lholley@wielandbuilds.com,smtp:Larry.Holley@wieland-davco.com
+Y,USER,lrogers,lrogers,Logan Rogers,Logan,Rogers,,Project Management,lrogers@wielandbuilds.com,SMTP:lrogers@wielandbuilds.com,smtp:Logan.Rogers@wieland-davco.com
+Y,USER,mlucci,mlucci,Madeline Lucci,Madeline,Lucci,,,mlucci@wielandbuilds.com,SMTP:mlucci@wielandbuilds.com,smtp:Madeline.Lucci@wieland-davco.com
+Y,USER,mbone,mbone,Mark Bone,Mark,Bone,,,mbone@wielandbuilds.com,SMTP:mbone@wielandbuilds.com,smtp:Mark.Bone@wieland-davco.com
+Y,USER,mmyers,mmyers,Mark Myers,Mark,Myers,,,mmyers@wielandbuilds.com,SMTP:mmyers@wielandbuilds.com,smtp:Mark.Myers@wieland-davco.com
+Y,USER,mvandeventer,mvandeventer,Mark Vandeventer,Mark,Vandeventer,,Unassigned,markv@wielandbuilds.com,SMTP:markv@wielandbuilds.com,smtp:Mark.Vandeventer@wieland-davco.com
+Y,USER,mgetchell,mgetchell,Matt Getchell,Matt,Getchell,,Project Management,mattg@wielandbuilds.com,SMTP:mattg@wielandbuilds.com,smtp:Matt.Getchell@wieland-davco.com
+Y,USER,mhinote,mhinote,Matt Hinote,Matt,Hinote,,Project Management,mhinote@wielandbuilds.com,SMTP:mhinote@wielandbuilds.com,smtp:Matt.Hinote@wieland-davco.com
+Y,USER,mthibodeaux,mthibodeaux,Matt Thibodeaux,Matt,Thibodeaux,,,MattT@wielandbuilds.com,SMTP:MattT@wielandbuilds.com,smtp:Matt.Thibodeaux@wieland-davco.com
+Y,USER,mcohen,mcohen,Matthew Cohen,Matthew,Cohen,,,mcohen@wielandbuilds.com,SMTP:mcohen@wielandbuilds.com,smtp:Matthew.Cohen@wieland-davco.com
+Y,USER,mdevota,mdevota,Maureen Devota,Maureen,Devota,,Accounting,mdevota@wielandbuilds.com,SMTP:mdevota@wielandbuilds.com,smtp:Maureen.Devota@wieland-davco.com
+Y,USER,mevery,mevery,Megan Every,Megan,Every,,Accounting,mevery@wielandbuilds.com,SMTP:mevery@wielandbuilds.com,smtp:Megan.Every@wieland-davco.com
+Y,USER,mstolz,mstolz,Michael Stolz,Michael,Stolz,,,mstolz@wielandbuilds.com,SMTP:mstolz@wielandbuilds.com,smtp:Michael.Stolz@wieland-davco.com
+Y,USER,mrabe,mrabe,Mick Rabe,Mick,Rabe,,,mrabe@wielandbuilds.com,SMTP:mrabe@wielandbuilds.com,smtp:Mick.Rabe@wieland-davco.com
+Y,USER,mdrayer,mdrayer,Mike Drayer,Mike,Drayer,,Unassigned,mdrayer@wielandbuilds.com,SMTP:mdrayer@wielandbuilds.com,smtp:Mike.Drayer@wieland-davco.com
+Y,USER,mgapik,mgapik,Mike Gapik,Mike,Gapik,,Project Management,mgapik@wielandbuilds.com,SMTP:mgapik@wielandbuilds.com,smtp:Mike.Gapik@wieland-davco.com
+Y,USER,mjohnson,mjohnson,Mike Johnson,Mike,Johnson,,Project Management,mjohnson@wielandbuilds.com,SMTP:mjohnson@wielandbuilds.com,smtp:Mike.Johnson@wieland-davco.com
+Y,USER,mlukasik,mlukasik,Mike Lukasik,Mike,Lukasik,,Project Management,mlukasik@wielandbuilds.com,SMTP:mlukasik@wielandbuilds.com,smtp:Mike.Lukasik@wieland-davco.com
+Y,USER,mmead,mmead,Mike Mead,Mike,Mead,,IT Support,mmead@wielandbuilds.com,SMTP:mmead@wielandbuilds.com,smtp:Mike.Mead@wieland-davco.com
+Y,USER,mroeser,mroeser,Mike Roeser,Mike,Roeser,,Project Management,mroeser@wielandbuilds.com,SMTP:mroeser@wielandbuilds.com,smtp:Mike.Roeser@wieland-davco.com
+Y,USER,nfarhat,nfarhat,Norman Farhat,Norman,Farhat,,Marketing,nfarhat@wielandbuilds.com,SMTP:nfarhat@wielandbuilds.com,smtp:Norman.Farhat@wieland-davco.com
+Y,USER,rdempsey,rdempsey,Regan Dempsey,Regan,Dempsey,,,rdempsey@wielandbuilds.com,SMTP:rdempsey@wielandbuilds.com,smtp:Regan.Dempsey@wieland-davco.com
+Y,USER,revery,revery,Rhonda Every,Rhonda,Every,,Unassigned,revery@wielandbuilds.com,SMTP:revery@wielandbuilds.com,smtp:Rhonda.Every@wieland-davco.com
+Y,USER,rfranck,rfranck,Rhonda Franck,Rhonda,Franck,,,rfranck@wielandbuilds.com,SMTP:rfranck@wielandbuilds.com,smtp:Rhonda.Franck@wieland-davco.com
+Y,USER,rdick,rdick,Rob Dick,Rob,Dick,,Unassigned,rdick@wielandbuilds.com,SMTP:rdick@wielandbuilds.com,smtp:Rob.Dick@wieland-davco.com
+Y,USER,rkrueger,rkrueger,Rob Krueger,Rob,Krueger,,Project Management,rkrueger@wielandbuilds.com,SMTP:rkrueger@wielandbuilds.com,smtp:Rob.Krueger@wieland-davco.com
+Y,USER,rhansen,rhansen,Ron Hansen,Ron,Hansen,,Project Management,ronh@wielandbuilds.com,SMTP:ronh@wielandbuilds.com,smtp:Ron.Hansen@wieland-davco.com
+Y,USER,rlindner,rlindner,Ryan Lindner,Ryan,Lindner,,Project Management,rlindner@wielandbuilds.com,SMTP:rlindner@wielandbuilds.com,smtp:Ryan.Lindner@wieland-davco.com
+Y,USER,rroberts,rroberts,Ryan Roberts,Ryan,Roberts,,Project Management,rroberts@wielandbuilds.com,SMTP:rroberts@wielandbuilds.com,smtp:Ryan.Roberts@wieland-davco.com
+Y,USER,sbakshi,sbakshi,Sahil Bakshi,Sahil,Bakshi,,,sbakshi@wielandbuilds.com,SMTP:sbakshi@wielandbuilds.com,smtp:Sahil.Bakshi@wieland-davco.com
+Y,USER,sgibson,sgibson,Sam Gibson,Sam,Gibson,,,sgibson@wielandbuilds.com,SMTP:sgibson@wielandbuilds.com,smtp:Sam.Gibson@wieland-davco.com
+Y,USER,swinkler,swinkler,Sandy Winkler,Sandy,Winkler,,,swinkler@wielandbuilds.com,SMTP:swinkler@wielandbuilds.com,smtp:Sandy.Winkler@wieland-davco.com
+Y,USER,sstokes,sstokes,Sarah Stokes,Sarah,Stokes,,,sstokes@wielandbuilds.com,SMTP:sstokes@wielandbuilds.com,smtp:Sarah.Stokes@wieland-davco.com
+Y,USER,smason,smason,Scott Mason,Scott,Mason,,Project Management,smason@wielandbuilds.com,SMTP:smason@wielandbuilds.com,smtp:Scott.Mason@wieland-davco.com
+Y,USER,snoel,snoel,Scott Noel,Scott,Noel,,,snoel@wielandbuilds.com,SMTP:snoel@wielandbuilds.com,smtp:Scott.Noel@wieland-davco.com
+Y,USER,swieland,swieland,Scott Wieland,Scott,Wieland,,Unassigned,swieland@wielandbuilds.com,SMTP:swieland@wielandbuilds.com,smtp:Scott.Wieland@wieland-davco.com
+Y,USER,sdevota,sdevota,Shane Devota,Shane,Devota,,Unassigned,sdevota@wielandbuilds.com,SMTP:sdevota@wielandbuilds.com,smtp:Shane.Devota@wieland-davco.com
+Y,USER,smartbidnet,smartbidnet,SmartBidNet,SmartBidNet,,,,sbn@wielandbuilds.com,SMTP:sbn@wielandbuilds.com,smtp:SmartBidNet.@wieland-davco.com
+Y,USER,sprice,sprice,Spenser Price,Spenser,Price,,Project Management,sprice@wielandbuilds.com,SMTP:sprice@wielandbuilds.com,smtp:Spenser.Price@wieland-davco.com
+Y,USER,sopper,sopper,Steve Opper,Steve,Opper,,Marketing,sopper@wielandbuilds.com,SMTP:sopper@wielandbuilds.com,smtp:Steve.Opper@wieland-davco.com
+Y,USER,swright,swright,Steven Wright,Steven,Wright,,Project Management,swright@wielandbuilds.com,SMTP:swright@wielandbuilds.com,smtp:Steven.Wright@wieland-davco.com
+Y,USER,tnemeth,tnemeth,Taylor Nemeth,Taylor,Nemeth,,,tnemeth@wielandbuilds.com,SMTP:tnemeth@wielandbuilds.com,smtp:Taylor.Nemeth@wieland-davco.com
+Y,USER,tbourque,tbourque,Thomas Bourque,Thomas,Bourque,,,tbourque@wielandbuilds.com,SMTP:tbourque@wielandbuilds.com,smtp:Thomas.Bourque@wieland-davco.com
+Y,USER,thawkins,thawkins,Tim Hawkins,Tim,Hawkins,,,thawkins@wielandbuilds.com,SMTP:thawkins@wielandbuilds.com,smtp:Tim.Hawkins@wieland-davco.com
+Y,USER,tcochran,tcochran,Tom Cochran,Tom,Cochran,,Unassigned,tcochran@wielandbuilds.com,SMTP:tcochran@wielandbuilds.com,smtp:Tom.Cochran@wieland-davco.com
+Y,USER,tgreen,tgreen,Tom Green,Tom,Green,,,tgreen@wielandbuilds.com,SMTP:tgreen@wielandbuilds.com,smtp:Tom.Green@wieland-davco.com
+Y,USER,tsmith,tsmith,Tom Smith,Tom,Smith,,Unassigned,tsmith@wielandbuilds.com,SMTP:tsmith@wielandbuilds.com,smtp:Tom.Smith@wieland-davco.com
+Y,USER,thampton,thampton,Ty Hampton,Ty,Hampton,,,thampton@wielandbuilds.com,SMTP:thampton@wielandbuilds.com,smtp:Ty.Hampton@wieland-davco.com
+Y,USER,tbuxton,tbuxton,Tyler Buxton,Tyler,Buxton,,Unassigned,tbuxton@wielandbuilds.com,SMTP:tbuxton@wielandbuilds.com,smtp:Tyler.Buxton@wieland-davco.com
+Y,USER,wschacht,wschacht,Warren Schacht,Warren,Schacht,,,wschacht@wielandbuilds.com,SMTP:wschacht@wielandbuilds.com,smtp:Warren.Schacht@wieland-davco.com
+Y,USER,scans,scans,Wieland Scans,Wieland,Scans,,,Scans@wieland-davco.com,SMTP:Scans@wieland-davco.com,smtp:Wieland.Scans@wieland-davco.com
+Y,USER,wbelanger,wbelanger,Will Belanger,Will,Belanger,,,wbelanger@wielandbuilds.com,SMTP:wbelanger@wielandbuilds.com,smtp:Will.Belanger@wieland-davco.com
+Y,USER,zmead,zmead,Zach Mead,Zach,Mead,,,zachm@wielandbuilds.com,SMTP:zachm@wielandbuilds.com,smtp:Zach.Mead@wieland-davco.com

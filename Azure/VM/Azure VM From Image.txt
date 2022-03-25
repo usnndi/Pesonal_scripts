@@ -1,0 +1,79 @@
+Set-AzureRmVM -ResourceGroupName wieland-rdsh-rg -Name wieland-rd0 -Generalized
+
+Set-AzureRmVm -ResourceGroupName <resourceGroup> -Name <vmName> -Generalized
+
+$vm = Get-AzureRmVM -ResourceGroupName wieland-rdsh-rg -Name wieland-rd0 -status
+$vm.Statuses
+
+Save-AzureRmVMImage -ResourceGroupName wieland-rdsh-rg -Name wieland-rd0 -DestinationContainerName vhd -VHDNamePrefix wielandrdimage -Path c:\users\jloveall\onedrive\desktop\wielandrdimage.json
+
+#Wieland Azure Login
+Login-AzureRmAccount
+
+#Create variables
+# Enter a new user name and password to use as the local administrator account for the remotely accessing the VM
+$cred = Get-Credential
+
+#Image Path
+$imageURI = "https://wielandpremstor.blob.core.windows.net/imagevhd/wielandrdimage-osDisk.dab5a4cf-8917-419e-84fb-ab21289df3ed.vhd"
+
+# Name of the storage account 
+$storageAccName = "wielandpremstor"
+
+# Name of the virtual machine
+$vmName = "Wieland-RD01"
+
+# Size of the virtual machine. See the VM sizes documentation for more information: https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/
+$vmSize = "Standard_D3_v2"
+
+# Computer name for the VM
+$computerName = "Wieland-RD01"
+
+# Name of the disk that holds the OS
+$osDiskName = "wieland-rd01-os"
+
+# Assign a SKU name
+# Valid values for -SkuName are: **Standard_LRS** - locally redundant storage, **Standard_ZRS** - zone redundant storage, **Standard_GRS** - geo redundant storage, **Standard_RAGRS** - read access geo redundant storage, **Premium_LRS** - premium locally redundant storage. 
+$skuName = "Standard_LRS"
+
+# Create a new storage account for the VM
+#New-AzureRmStorageAccount -ResourceGroupName $rgName -Name $storageAccName -Location $location -SkuName $skuName -Kind "Storage"
+
+#Virtual Network Varialbles
+$rgName = "wieland-rdsh-rg"
+$location = "eastus2"
+$locname = "eastus2"
+$vnet = "Wieland-RDSH-VN"
+$vnetName = "Wieland-RDSH-VN"
+$subnetName = "Servers"
+#$singleSubnet = New-AzureRmVirtualNetworkSubnetConfig -Name $subnetName -AddressPrefix <0.0.0.0/0>
+
+$ipName = "wieland-rd01-pub-ip"
+$pip = New-AzureRmPublicIpAddress -Name $ipName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+
+$nicName = "wieland-rd01-nic"
+$nic = New-AzureRmNetworkInterface -Name $nicName -ResourceGroupName "wieland-rdsh-rg" -Location $locName -SubnetId $vnetname.Subnets[0].Id -PublicIpAddressId $pip.Id
+
+#Get the storage account where the uploaded image is stored
+$storageAcc = Get-AzureRmStorageAccount -ResourceGroupName "wieland-rdsh-rg" -AccountName wielandpremstor
+
+#Set the VM name and size
+#Use "Get-Help New-AzureRmVMConfig" to know the available options for -VMsize
+$vmConfig = New-AzureRmVMConfig -VMName $vmName -VMSize $vmSize
+
+#Set the Windows operating system configuration and add the NIC
+$vm = Set-AzureRmVMOperatingSystem -VM $vmConfig -Windows -ComputerName $computerName -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+
+$vm = Add-AzureRmVMNetworkInterface -VM $vm -Id $nic.Id
+
+#Create the OS disk URI
+$osDiskUri = '{0}vhds/{1}-{2}.vhd' -f $storageAcc.PrimaryEndpoints.Blob.ToString(), $vmName.ToLower(), $osDiskName
+#$osDiskUri = 'https://wielandpremstor.blob.core.windows.net/imagevhd/wielandrdimage-osDisk.dab5a4cf-8917-419e-84fb-ab21289df3ed.vhd' -f $storageAcc.PrimaryEndpoints.Blob.ToString(), $vmName.ToLower(), $osDiskName
+
+
+#Configure the OS disk to be created from the image (-CreateOption fromImage), and give the URL of the uploaded image VHD for the -SourceImageUri parameter
+#You set this variable when you uploaded the VHD
+$vm = Set-AzureRmVMOSDisk -VM $vm -Name $osDiskName -VhdUri $osDiskUri -CreateOption fromImage -SourceImageUri $imageuri -Windows
+
+#Create the new VM
+New-AzureRmVM -ResourceGroupName wieland-rdsh-rg -Location "eastus2" -VM $vm

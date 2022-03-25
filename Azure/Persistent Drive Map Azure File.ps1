@@ -1,0 +1,1 @@
+﻿New-SmbGlobalMapping -Credential Azure\askveeamdiskstor -RemotePath \\askveeamdiskstor.file.core.windows.net\veeamdata -Confirm -FullAccess @( "NT Authority\System", "NT AUTHORITY\NetworkService", "ASK-VEEAM\Setup" ) -LocalPath Z: -Persistent $True

@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "ASK Azure Total Care"
+        },
+        "mspOfferDescription": {
+            "value": "ASK Azure Managed Services "
+        },
+      "managedByTenantId": {
+            "value": "7e133024-7fde-4ba2-befa-780f31dbab00"
+      },
+        "authorizations": {
+          "value": [
+            {
+              "principalId": "1df47e69-af38-4de6-a38f-941a6e1d6e96",
+              "principalIdDisplayName": "ASK Azure Tier 2 Support",
+              "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+            },
+            {
+              "principalId": "596bd99c-15a7-44f8-8b3c-9350b4f4dd2a",
+              "principalIdDisplayName": "ASK Azure Tier 1 Support",
+              "roleDefinitionId": "00c29273-979b-4161-815c-10b084fb9324"
+            },
+            {
+              "principalId": "596bd99c-15a7-44f8-8b3c-9350b4f4dd2a",
+              "principalIdDisplayName": "ASK Azure Tier 1 Support",
+              "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+            },
+            {
+              "principalId": "596bd99c-15a7-44f8-8b3c-9350b4f4dd2a",
+              "principalIdDisplayName": "ASK Azure Tier 1 Support",
+              "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c"
+            },
+            {
+              "principalId": "7f4ad2b2-ed6f-489d-bab5-8e4061e73eec",
+              "principalIdDisplayName": "ASK Azure ESS Support",
+              "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade"
+            },
+            {
+              "principalId": "c7ff4fce-4d07-4415-8b07-e95d6e72d660",
+              "principalIdDisplayName": "ASK Azure Proactive Support",
+              "roleDefinitionId": "00c29273-979b-4161-815c-10b084fb9324"
+            },
+            {
+              "principalId": "4bbc383d-c6a9-4bc9-ad5a-4d5e79360caa",
+              "principalIdDisplayName": "ASK Azure Billing Reader",
+              "roleDefinitionId": "fa23ad8b-c56e-40d8-ac0c-ce449e1d2c64"
+            },
+            {
+              "principalId": "7f4ad2b2-ed6f-489d-bab5-8e4061e73eec",
+              "principalIdDisplayName": "ASK Azure ESS Support",
+              "roleDefinitionId": "fb1c8493-542b-48eb-b624-b4c8fea62acd"
+            }
+          ]
+        }
+    }
+}

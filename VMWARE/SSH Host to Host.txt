@@ -1,0 +1,1 @@
+scp -r /vmfs/volumes/datastore1/FogSvr1/ root@172.16.102.24:/vmfs/volumes/5d35a3cd-2f35db08-1a09-6c2b5993b4ba/

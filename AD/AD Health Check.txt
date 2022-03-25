@@ -1,0 +1,43 @@
+@Echo Off
+ECHO Running AD Health Checks - Notepad will open after completion
+ECHO You can share this log using http://pastie.org/pastes/new
+ECHO This Command Prompt will close after you close Notepad
+ECHO http://blog.thesysadmins.co.uk
+set logfile=%userprofile%\Desktop\ADHealth.txt
+echo You can share this log using http://pastie.org/pastes/new > %logfile%
+echo. >> %logfile%
+echo. >> %logfile%
+REM Finds system boot time
+echo System Boot Time ------------------------------------------------------------- >> %logfile%
+systeminfo | find "System Boot Time:" >> %logfile%
+systeminfo | find "System Up Time:" >> %logfile%
+echo. >> %logfile%
+echo. >> %logfile%
+REM Displays all current TCP/IP network configuration values
+echo IPCONFIG ------------------------------------------------------------- >> %logfile%
+ipconfig /all >> %logfile%
+echo. >> %logfile%
+echo. >> %logfile%
+REM Analyse the state of domain controllers in a forest and reports any problems to assist in troubleshooting
+echo DCDIAG ------------------------------------------------------------- >> %logfile%
+dcdiag /a >> %logfile%
+echo. >> %logfile%
+echo. >> %logfile%
+REM The replsummary operation quickly summarizes the replication state and relative health
+echo Replsummary ------------------------------------------------------------- >> %logfile%
+repadmin /replsummary >> %logfile%
+echo. >> %logfile%
+echo. >> %logfile%
+REM Displays the replication partners for each directory partition on the specified domain controller
+echo Showrepl ------------------------------------------------------------- >> %logfile%
+repadmin /showrepl >> %logfile%
+echo. >> %logfile%
+echo. >> %logfile%
+REM Query FSMO roles
+echo NETDOM Query FSMO ------------------------------------------------------------- >> %logfile%
+netdom query fsmo >> %logfile%
+REM Query Global Catalogs
+echo List Global Catalogs ------------------------------------------------------------- >> %logfile%
+for /f "tokens=2" %%a in ('systeminfo ^| findstr Domain:') do set domain=%%a
+nslookup -querytype=srv _gc._tcp.%domain% >> %logfile%
+notepad %logfile%

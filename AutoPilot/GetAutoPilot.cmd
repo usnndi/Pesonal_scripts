@@ -1,0 +1,1 @@
+PowerShell -NoProfile -ExecutionPolicy Unrestricted -Command .\Get-WindowsAutoPilotInfo.ps1 -ComputerName localhost -OutputFile .\computers.csv -append

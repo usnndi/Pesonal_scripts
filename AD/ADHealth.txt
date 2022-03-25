@@ -1,0 +1,266 @@
+You can share this log using http://pastie.org/pastes/new 
+ 
+ 
+System Boot Time ------------------------------------------------------------- 
+System Boot Time:          11/20/2016, 12:36:24 AM
+ 
+ 
+IPCONFIG ------------------------------------------------------------- 
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : ICMCFDC1
+   Primary Dns Suffix  . . . . . . . : icmcf.pvt
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : icmcf.pvt
+
+Ethernet adapter Local Area Connection 4:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : vmxnet3 Ethernet Adapter #3
+   Physical Address. . . . . . . . . : 00-50-56-88-00-02
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::6d31:e589:67e6:bf54%17(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 172.22.100.4(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 172.22.100.254
+   DHCPv6 IAID . . . . . . . . . . . : 335564886
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-14-F3-5A-C9-00-50-56-88-00-00
+   DNS Servers . . . . . . . . . . . : 172.22.100.4
+                                       8.8.8.8
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.{AF3B2B2A-BCFA-4887-94C1-C0DE6D443A70}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+ 
+ 
+DCDIAG ------------------------------------------------------------- 
+
+Directory Server Diagnosis
+
+Performing initial setup:
+   Trying to find home server...
+   Home Server = ICMCFDC1
+   * Identified AD Forest. 
+   Done gathering initial info.
+
+Doing initial required tests
+   
+   Testing server: Default-First-Site-Name\ICMCFDC1
+      Starting test: Connectivity
+         ......................... ICMCFDC1 passed test Connectivity
+   
+   Testing server: Default-First-Site-Name\ICMCFRADIUS
+      Starting test: Connectivity
+         ......................... ICMCFRADIUS passed test Connectivity
+
+Doing primary tests
+   
+   Testing server: Default-First-Site-Name\ICMCFDC1
+      Starting test: Advertising
+         ......................... ICMCFDC1 passed test Advertising
+      Starting test: FrsEvent
+         ......................... ICMCFDC1 passed test FrsEvent
+      Starting test: DFSREvent
+         ......................... ICMCFDC1 passed test DFSREvent
+      Starting test: SysVolCheck
+         ......................... ICMCFDC1 passed test SysVolCheck
+      Starting test: KccEvent
+         ......................... ICMCFDC1 passed test KccEvent
+      Starting test: KnowsOfRoleHolders
+         ......................... ICMCFDC1 passed test KnowsOfRoleHolders
+      Starting test: MachineAccount
+         ......................... ICMCFDC1 passed test MachineAccount
+      Starting test: NCSecDesc
+         ......................... ICMCFDC1 passed test NCSecDesc
+      Starting test: NetLogons
+         ......................... ICMCFDC1 passed test NetLogons
+      Starting test: ObjectsReplicated
+         ......................... ICMCFDC1 passed test ObjectsReplicated
+      Starting test: Replications
+         ......................... ICMCFDC1 passed test Replications
+      Starting test: RidManager
+         ......................... ICMCFDC1 passed test RidManager
+      Starting test: Services
+         ......................... ICMCFDC1 passed test Services
+      Starting test: SystemLog
+         A warning event occurred.  EventID: 0x00000458
+            Time Generated: 11/29/2016   15:34:04
+            Event String:
+            The Group Policy Client Side Extension Folder Redirection was unable to apply one or more settings because the changes must be processed before system startup or user logon. The system will wait for Group Policy processing to finish completely before the next startup or logon for this user, and this may result in slow startup and boot performance.
+         ......................... ICMCFDC1 passed test SystemLog
+      Starting test: VerifyReferences
+         ......................... ICMCFDC1 passed test VerifyReferences
+   
+   Testing server: Default-First-Site-Name\ICMCFRADIUS
+      Starting test: Advertising
+         ......................... ICMCFRADIUS passed test Advertising
+      Starting test: FrsEvent
+         ......................... ICMCFRADIUS passed test FrsEvent
+      Starting test: DFSREvent
+         ......................... ICMCFRADIUS passed test DFSREvent
+      Starting test: SysVolCheck
+         ......................... ICMCFRADIUS passed test SysVolCheck
+      Starting test: KccEvent
+         ......................... ICMCFRADIUS passed test KccEvent
+      Starting test: KnowsOfRoleHolders
+         ......................... ICMCFRADIUS passed test KnowsOfRoleHolders
+      Starting test: MachineAccount
+         ......................... ICMCFRADIUS passed test MachineAccount
+      Starting test: NCSecDesc
+         ......................... ICMCFRADIUS passed test NCSecDesc
+      Starting test: NetLogons
+         ......................... ICMCFRADIUS passed test NetLogons
+      Starting test: ObjectsReplicated
+         ......................... ICMCFRADIUS passed test ObjectsReplicated
+      Starting test: Replications
+         ......................... ICMCFRADIUS passed test Replications
+      Starting test: RidManager
+         ......................... ICMCFRADIUS passed test RidManager
+      Starting test: Services
+         ......................... ICMCFRADIUS passed test Services
+      Starting test: SystemLog
+         ......................... ICMCFRADIUS passed test SystemLog
+      Starting test: VerifyReferences
+         ......................... ICMCFRADIUS passed test VerifyReferences
+   
+   
+   
+   Running partition tests on : ForestDnsZones
+      Starting test: CheckSDRefDom
+         ......................... ForestDnsZones passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... ForestDnsZones passed test
+         CrossRefValidation
+   
+   Running partition tests on : DomainDnsZones
+      Starting test: CheckSDRefDom
+         ......................... DomainDnsZones passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... DomainDnsZones passed test
+         CrossRefValidation
+   
+   Running partition tests on : Schema
+      Starting test: CheckSDRefDom
+         ......................... Schema passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... Schema passed test CrossRefValidation
+   
+   Running partition tests on : Configuration
+      Starting test: CheckSDRefDom
+         ......................... Configuration passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... Configuration passed test CrossRefValidation
+   
+   Running partition tests on : icmcf
+      Starting test: CheckSDRefDom
+         ......................... icmcf passed test CheckSDRefDom
+      Starting test: CrossRefValidation
+         ......................... icmcf passed test CrossRefValidation
+   
+   Running enterprise tests on : icmcf.pvt
+      Starting test: LocatorCheck
+         ......................... icmcf.pvt passed test LocatorCheck
+      Starting test: Intersite
+         ......................... icmcf.pvt passed test Intersite
+ 
+ 
+Replsummary ------------------------------------------------------------- 
+Replication Summary Start Time: 2016-11-29 16:22:41
+
+Beginning data collection for replication summary, this may take awhile:
+  .....
+
+
+Source DSA          largest delta    fails/total %%   error
+ ICMCFDC1                  28m:18s    0 /   5    0  
+ ICMCFRADIUS               29m:36s    0 /   5    0  
+
+
+Destination DSA     largest delta    fails/total %%   error
+ ICMCFDC1                  29m:36s    0 /   5    0  
+ ICMCFRADIUS               28m:18s    0 /   5    0  
+
+
+ 
+ 
+Showrepl ------------------------------------------------------------- 
+
+Repadmin: running command /showrepl against full DC localhost
+Default-First-Site-Name\ICMCFDC1
+DSA Options: IS_GC 
+Site Options: (none)
+DSA object GUID: 6a03ee13-7ada-4869-9fab-82489e938bd4
+DSA invocationID: d9677285-b631-4edb-97cc-4eb35a7805e6
+
+==== INBOUND NEIGHBORS ======================================
+
+DC=icmcf,DC=pvt
+    Default-First-Site-Name\ICMCFRADIUS via RPC
+        DSA object GUID: e231b23f-7e87-44d7-809c-cd200ec715c3
+        Last attempt @ 2016-11-29 16:20:46 was successful.
+
+CN=Configuration,DC=icmcf,DC=pvt
+    Default-First-Site-Name\ICMCFRADIUS via RPC
+        DSA object GUID: e231b23f-7e87-44d7-809c-cd200ec715c3
+        Last attempt @ 2016-11-29 15:53:05 was successful.
+
+CN=Schema,CN=Configuration,DC=icmcf,DC=pvt
+    Default-First-Site-Name\ICMCFRADIUS via RPC
+        DSA object GUID: e231b23f-7e87-44d7-809c-cd200ec715c3
+        Last attempt @ 2016-11-29 15:54:39 was successful.
+
+DC=DomainDnsZones,DC=icmcf,DC=pvt
+    Default-First-Site-Name\ICMCFRADIUS via RPC
+        DSA object GUID: e231b23f-7e87-44d7-809c-cd200ec715c3
+        Last attempt @ 2016-11-29 16:21:00 was successful.
+
+DC=ForestDnsZones,DC=icmcf,DC=pvt
+    Default-First-Site-Name\ICMCFRADIUS via RPC
+        DSA object GUID: e231b23f-7e87-44d7-809c-cd200ec715c3
+        Last attempt @ 2016-11-29 15:56:29 was successful.
+
+ 
+ 
+NETDOM Query FSMO ------------------------------------------------------------- 
+Schema master               ICMCFRadius.icmcf.pvt
+Domain naming master        ICMCFRadius.icmcf.pvt
+PDC                         ICMCFDC1.icmcf.pvt
+RID pool manager            ICMCFDC1.icmcf.pvt
+Infrastructure master       ICMCFDC1.icmcf.pvt
+The command completed successfully.
+
+List Global Catalogs ------------------------------------------------------------- 
+Server:  icmcfdc1.icmcf.pvt
+Address:  172.22.100.4
+
+_gc._tcp.icmcf.pvt	SRV service location:
+	  priority       = 0
+	  weight         = 100
+	  port           = 3268
+	  svr hostname   = icmcfdc1.icmcf.pvt
+_gc._tcp.icmcf.pvt	SRV service location:
+	  priority       = 0
+	  weight         = 100
+	  port           = 3268
+	  svr hostname   = icmcfradius.icmcf.pvt
+icmcfdc1.icmcf.pvt	internet address = 172.22.100.4
+icmcfradius.icmcf.pvt	internet address = 172.22.100.10

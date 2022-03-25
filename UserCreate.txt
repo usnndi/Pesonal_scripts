@@ -1,0 +1,17 @@
+$Users = Import-Csv -Path "D:\Downloads\Users\Userlisttest.csv"            
+foreach ($User in $Users)            
+{            
+    $Displayname = $User.'Firstname' + " " + $User.'Lastname'            
+    $UserFirstname = $User.'Firstname'            
+    $UserLastname = $User.'Lastname'            
+    $OU = $User.'OU'            
+    $SAM = $User.'SAM'            
+    $UPN = $User.'Firstname' + "." + $User.'Lastname' + "@" + $User.'Maildomain'            
+    $Description = $User.'Description'            
+    $Password = $User.'Password'
+    $Title = $User.Title
+    $Email = $User.Email            
+    New-ADUser -Name "$Displayname" -DisplayName "$Displayname" -SamAccountName $SAM -UserPrincipalName $UPN -Title "$Title" -EmailAddress $Email -GivenName "$UserFirstname" -Surname "$UserLastname" -Description "$Description" -AccountPassword (ConvertTo-SecureString $Password -AsPlainText -Force) -Enabled $true -Path "$OU" -ChangePasswordAtLogon $false –PasswordNeverExpires $true -server domain.loc            
+}
+
+New-ADUser -Name "Tom Saisbury" -DisplayName "Tom Salibury" -SamAccountName T.Salibury -UserPrincipalName junior@rapartsinc.com -Title Owner -EmailAddress junior@rapartsinc.com -GivenName Tom -Surname Salisbury -Description Owner -AccountPassword (ConvertTo-SecureString Zagywk12345! -AsPlainText -Force)

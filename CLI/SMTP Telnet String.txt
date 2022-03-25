@@ -1,0 +1,12 @@
+"v=spf1 include:spfenom.justask.net include:zixspf.justask.net include:spf.messagelabs.com include:autotask.net  include:spf.mindmatrix.net include:spf.protection.outlook.com ~all"
+
+
+Helo
+Mail From: WEBProd01@rsilogistics.com
+RCPT To: sspalding@justask.net
+DATA
+Subject:Sorry to Tell you this way
+
+I have to let you go.
+
+.

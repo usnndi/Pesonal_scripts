@@ -1,0 +1,10 @@
+telnet 192.168.66.77 25
+HELO smtp.office365.com
+MAIL FROM: scans@wielandbuilds.com
+RCPT TO: jloveall@justask.net
+DATA
+Subject:Test relay
+
+From John Loveall using Telent.
+.
+quit

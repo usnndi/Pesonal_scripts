@@ -1,0 +1,50 @@
+Migrate,Mailbox,Username,SamAccountName,Name,cn,sn,title,Department,EMail,smtp,smtp1
+Y,SHARED,accountspayable,accountspayable,Accounts Payable,Accounts,Payable,Shared,Accounting,ap@wielandbuilds.com,smtp:ap@wielandbuilds.com,smtp:ap@wieland-davco.com
+Y,SHARED,alennard,alennard,Andrew Lennard,Andrew,Lennard,Shared,,alennard@wielandbuilds.com,smtp:alennard@wielandbuilds.com,smtp:alennard@wieland-davco.com
+Y,SHARED,ashaw,ashaw,Aubrey Shaw,Aubrey,Shaw,Shared,Marketing,aubrey.shaw@wieland-davco.com,smtp:aubrey.shaw@wieland-davco.com,smtp:aubrey.shaw@wielandbuilds.com
+Y,SHARED,bleblanc,bleblanc,Ben LeBlanc,Ben,LeBlanc,Shared,Project Management,ben.leblanc@wieland-davco.com,smtp:ben.leblanc@wieland-davco.com,smtp:ben.leblanc@wielandbuilds.com
+Y,SHARED,bgraham,bgraham,Brett Graham,Brett,Graham,Shared,,brett.graham@wieland-davco.com,smtp:brett.graham@wieland-davco.com,smtp:brett.graham@wielandbuilds.com
+Y,SHARED,btiehen,btiehen,Brian Tiehen,Brian,Tiehen,Shared,,brian.tiehen@wieland-davco.com,smtp:brian.tiehen@wieland-davco.com,smtp:brian.tiehen@wielandbuilds.com
+Y,SHARED,bseidel,bseidel,Brock Seidel,Brock,Seidel,Shared,,brock.seidel@wieland-davco.com,smtp:brock.seidel@wieland-davco.com,smtp:brock.seidel@wielandbuilds.com
+Y,SHARED,careers,careers,Careers,Careers,,Shared,Unassigned,careers@wielandbuilds.com,smtp:careers@wielandbuilds.com,smtp:careers@wieland-davco.com
+Y,SHARED,cdaunhauer,cdaunhauer,Chuck Daunhauer,Chuck,Daunhauer,Shared,Unassigned,chuck.daunhauer@wieland-davco.com,smtp:chuck.daunhauer@wieland-davco.com,smtp:chuck.daunhauer@wielandbuilds.com
+Y,SHARED,djury,djury,Dan Jury,Dan,Jury,Shared,Project Management,dan.jury@wieland-davco.com,smtp:dan.jury@wieland-davco.com,smtp:dan.jury@wielandbuilds.com
+Y,SHARED,dentler,dentler,David Entler,David,Entler,Shared,Unassigned,david.entler@wieland-davco.com,smtp:david.entler@wieland-davco.com,smtp:david.entler@wielandbuilds.com
+Y,SHARED,dcraig,dcraig,Dean Craig,Dean,Craig,Shared,Unassigned,dean.craig@wieland-davco.com,smtp:dean.craig@wieland-davco.com,smtp:dean.craig@wielandbuilds.com
+Y,SHARED,dwarren,dwarren,Derrick Warren,Derrick,Warren,Shared,Project Management,derrick.warren@wieland-davco.com,smtp:derrick.warren@wieland-davco.com,smtp:derrick.warren@wielandbuilds.com
+Y,SHARED,ddavis,ddavis,Don Davis,Don,Davis,Shared,Unassigned,don.davis@wieland-davco.com,smtp:don.davis@wieland-davco.com,smtp:don.davis@wielandbuilds.com
+Y,SHARED,dray,dray,Dustin Ray,Dustin,Ray,Shared,,dustin.ray@wieland-davco.com,smtp:dustin.ray@wieland-davco.com,smtp:dustin.ray@wielandbuilds.com
+Y,SHARED,ekrueger,ekrueger,Emily Krueger,Emily,Krueger,Shared,,Emily.Krueger@wieland-davco.com,smtp:Emily.Krueger@wieland-davco.com,smtp:Emily.Krueger@wielandbuilds.com
+Y,SHARED,epowell,epowell,Eric Powell,Eric,Powell,Shared,Project Management,eric.powell@wieland-davco.com,smtp:eric.powell@wieland-davco.com,smtp:eric.powell@wielandbuilds.com
+Y,SHARED,ggarza,ggarza,Gabby Garza,Gabby,Garza,Shared,Project Management,gabby.garza@wieland-davco.com,smtp:gabby.garza@wieland-davco.com,smtp:gabby.garza@wielandbuilds.com
+Y,SHARED,gdegraaf,gdegraaf,Gary DeGraaf,Gary,DeGraaf,Shared,Unassigned,gary.degraaf@wieland-davco.com,smtp:gary.degraaf@wieland-davco.com,smtp:gary.degraaf@wielandbuilds.com
+Y,SHARED,gminniti,gminniti,Gina Minniti,Gina,Minniti,Shared,Unassigned,gina.minniti@wieland-davco.com,smtp:gina.minniti@wieland-davco.com,smtp:gina.minniti@wielandbuilds.com
+Y,SHARED,gking,gking,Greg King,Greg,King,Shared,Marketing,greg.king@wieland-davco.com,smtp:greg.king@wieland-davco.com,smtp:greg.king@wielandbuilds.com
+Y,SHARED,gnelson,gnelson,Greg Nelson,Greg,Nelson,Shared,Unassigned,greg.nelson@wieland-davco.com,smtp:greg.nelson@wieland-davco.com,smtp:greg.nelson@wielandbuilds.com
+Y,SHARED,jkauffman,jkauffman,Jason Kauffman,Jason,Kauffman,Shared,Project Management,jason.kauffman@wieland-davco.com,smtp:jason.kauffman@wieland-davco.com,smtp:jason.kauffman@wielandbuilds.com
+Y,SHARED,jmelius,jmelius,Jerry Melius,Jerry,Melius,Shared,Unassigned,jerry.melius@wieland-davco.com,smtp:jerry.melius@wieland-davco.com,smtp:jerry.melius@wielandbuilds.com
+Y,SHARED,jread,jread,Jessie Read,Jessie,Read,Shared,IT Support,jessie.read@wieland-davco.com,smtp:jessie.read@wieland-davco.com,smtp:jessie.read@wielandbuilds.com
+Y,SHARED,jhaupt,jhaupt,Joe Haupt,Joe,Haupt,Shared,Project Management,jhaupt@wielandbuilds.com,smtp:jhaupt@wielandbuilds.com,smtp:jhaupt@wieland-davco.com
+Y,SHARED,jrueda,jrueda,Juan Rueda,Juan,Rueda,Shared,Project Management,juan.rueda@wieland-davco.com,smtp:juan.rueda@wieland-davco.com,smtp:juan.rueda@wielandbuilds.com
+Y,SHARED,jbarrientos,jbarrientos,Julian Barrientos,Julian,Barrientos,Shared,Project Management,julian.barrientos@wieland-davco.com,smtp:julian.barrientos@wieland-davco.com,smtp:julian.barrientos@wielandbuilds.com
+Y,SHARED,kvarney,kvarney,Karen Varney,Karen,Varney,Shared,Accounting,karen.varney@wieland-davco.com,smtp:karen.varney@wieland-davco.com,smtp:karen.varney@wielandbuilds.com
+Y,SHARED,kdurbin,kdurbin,Keith Durbin,Keith,Durbin,Shared,Project Management,keith.durbin@wieland-davco.com,smtp:keith.durbin@wieland-davco.com,smtp:keith.durbin@wielandbuilds.com
+Y,SHARED,kjoe,kjoe,Kenith Joe,Kenith,Joe,Shared,Project Management,kenith.joe@wieland-davco.com,smtp:kenith.joe@wieland-davco.com,smtp:kenith.joe@wielandbuilds.com
+Y,SHARED,kbreedlove,kbreedlove,Kyle Breedlove,Kyle,Breedlove,Shared,,kyle.breedlove@wieland-davco.com,smtp:kyle.breedlove@wieland-davco.com,smtp:kyle.breedlove@wielandbuilds.com
+Y,SHARED,kkeogh,kkeogh,Kyle Keogh,Kyle,Keogh,Shared,,kyle.keogh@wieland-davco.com,smtp:kyle.keogh@wieland-davco.com,smtp:kyle.keogh@wielandbuilds.com
+Y,SHARED,landerson,landerson,Lars Anderson,Lars,Anderson,Shared,Unassigned,lars.anderson@wieland-davco.com,smtp:lars.anderson@wieland-davco.com,smtp:lars.anderson@wielandbuilds.com
+Y,SHARED,mmartin,mmartin,Matt Martin,Matt,Martin,Shared,Marketing,matt.martin@wieland-davco.com,smtp:matt.martin@wieland-davco.com,smtp:matt.martin@wielandbuilds.com
+Y,SHARED,mritchey,mritchey,Matt Ritchey,Matt,Ritchey,Shared,Project Management,matt.ritchey@wieland-davco.com,smtp:matt.ritchey@wieland-davco.com,smtp:matt.ritchey@wielandbuilds.com
+Y,SHARED,momara,momara,Morgan O'Mara,Morgan,O'Mara,Shared,Marketing,morgan.omara@wieland-davco.com,smtp:morgan.omara@wieland-davco.com,smtp:morgan.omara@wielandbuilds.com
+Y,SHARED,rcrase,rcrase,Ray Crase,Ray,Crase,Shared,Unassigned,ray.crase@wieland-davco.com,smtp:ray.crase@wieland-davco.com,smtp:ray.crase@wielandbuilds.com
+Y,SHARED,rsnemis,rsnemis,Remy Snemis,Remy,Snemis,Shared,,remy.snemis@wieland-davco.com,smtp:remy.snemis@wieland-davco.com,smtp:remy.snemis@wielandbuilds.com
+Y,SHARED,sblohm,sblohm,Sarah Blohm,Sarah,Blohm,Shared,Unassigned,sarah.blohm@wieland-davco.com,smtp:sarah.blohm@wieland-davco.com,smtp:sarah.blohm@wielandbuilds.com
+Y,SHARED,shayden,shayden,Sean Hayden,Sean,Hayden,Shared,Project Management,sean.hayden@wieland-davco.com,smtp:sean.hayden@wieland-davco.com,smtp:sean.hayden@wielandbuilds.com
+Y,SHARED,simplebooth,simplebooth,Simple Booth,Simple,Booth,Shared,,simplebooth@wieland-davco.com,smtp:simplebooth@wieland-davco.com,smtp:simplebooth@wielandbuilds.com
+Y,SHARED,smartbidnet,smartbidnet,SmartBidNet,SmartBidNet,,Shared,,sbn@wielandbuilds.com,smtp:sbn@wielandbuilds.com,smtp:sbn@wieland-davco.com
+Y,SHARED,sstegall,sstegall,Stan Stegall,Stan,Stegall,Shared,Unassigned,stan.stegall@wieland-davco.com,smtp:stan.stegall@wieland-davco.com,smtp:stan.stegall@wielandbuilds.com
+Y,SHARED,scumings,scumings,Steve Cumings,Steve,Cumings,Shared,Unassigned,scumings@wielandbuilds.com,smtp:scumings@wielandbuilds.com,smtp:scumings@wieland-davco.com
+Y,SHARED,tniemeyer,tniemeyer,Tracy Niemeyer,Tracy,Niemeyer,Shared,Project Management,tracy.niemeyer@wieland-davco.com,smtp:tracy.niemeyer@wieland-davco.com,smtp:tracy.niemeyer@wielandbuilds.com
+Y,SHARED,trumansmith,trumansmith,Truman Smith,Truman,Smith,Shared,,truman.smith@wieland-davco.com,smtp:truman.smith@wieland-davco.com,smtp:truman.smith@wielandbuilds.com
+Y,SHARED,wbytwerk,wbytwerk,Wayne Bytwerk,Wayne,Bytwerk,Shared,Unassigned,wayne.bytwerk@wieland-davco.com,smtp:wayne.bytwerk@wieland-davco.com,smtp:wayne.bytwerk@wielandbuilds.com
+Y,SHARED,scans,scans,Wieland Scans,Wieland,Scans,Shared,,Scans@wieland-davco.com,smtp:Scans@wieland-davco.com,smtp:Scans@wielandbuilds.com

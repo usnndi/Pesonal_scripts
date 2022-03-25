@@ -1,0 +1,3 @@
+﻿Import-Csv .\usercreationfile.csv | foreach-object { 
+$userprinicpalname = $_.SamAccountName + “@wielandbuilds.com” 
+New-ADUser -SamAccountName $_.SamAccountName -UserPrincipalName $userprinicpalname -Name $_.name -DisplayName $_.name -GivenName $_.cn -SurName $_.sn -Department $_.Department -Path “CN=Users,CN=Wieland,DC=ad,DC=wielandbuilds,DC=com” -AccountPassword (ConvertTo-SecureString “W13l@ndUser;” -AsPlainText -force) -Enabled $True -PasswordNeverExpires $False -PassThru }

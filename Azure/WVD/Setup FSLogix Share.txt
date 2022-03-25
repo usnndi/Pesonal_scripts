@@ -1,0 +1,43 @@
+# Set the feature flag on the target storage account and provide the required AD domain information
+Set-AzStorageAccount `
+        -ResourceGroupName "ASK-WVD-INFRA-RG" `
+        -Name "askwvdfslogixstor" `
+        -EnableActiveDirectoryDomainServicesForFile $true `
+        -ActiveDirectoryDomainName "justask.local" `
+        -ActiveDirectoryNetBiosDomainName "justask" `
+        -ActiveDirectoryForestName "justask.local" `
+        -ActiveDirectoryDomainGuid "<your-guid-here>" `
+        -ActiveDirectoryDomainsid "<your-domain-sid-here>" `
+        -ActiveDirectoryAzureStorageSid "S-1-5-21-1881441178-2373985473-3636869106-11621"
+		
+		
+		join-AzStorageaccountForAuth -ResourceGroupName "ASK-WVD-INFRA-RG" -Name "askwvdstor" -DomainAccountType "ComputerAccount" -OrganizationalUnitName "File & Print"
+		
+		
+		CMDKEY: Credential added successfully.
+New-PSDrive : Access is denied
+At line:5 char:5
++     New-PSDrive -Name M -PSProvider FileSystem -Root "\\askwvdstor.fi ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (M:PSDriveInfo) [New-PSDrive], Win32Exception
+    + FullyQualifiedErrorId : CouldNotMapNetworkDrive,Microsoft.PowerShell.Commands.NewPSDriveCommand
+
+
+$connectTestResult = Test-NetConnection -ComputerName askwvdstor.file.core.windows.net -Port 445
+if ($connectTestResult.TcpTestSucceeded) {
+    # Save the password so the drive will persist on reboot
+    cmd.exe /C "cmdkey /add:`"askwvdstor.file.core.windows.net`" /user:`"Azure\askwvdstor`" /pass:`"zELQ8yjXsais2oMM1JWpOUiizrk12sHWAAYGbbYBKHA42c9vDGv+Z7gznMtBsgTDlccpRi3BvO2naJXPyORGfA==`""
+    # Mount the drive
+    New-PSDrive -Name Y -PSProvider FileSystem -Root "\\askwvdstor.file.core.windows.net" -Persist
+} else {
+    Write-Error -Message "Unable to reach the Azure storage account via port 445. Check to make sure your organization or ISP is not blocking port 445, or use Azure P2S VPN, Azure S2S VPN, or Express Route to tunnel SMB traffic over a different port."
+}
+
+
+join-AzStorageAccountForAuth -ResourceGroupName "ASK-WVD-INFRA-RG" -Name "askwvdshare" -DomainAccountType "ComputerAccount" -OrganizationalUnitName "File & Print"
+
+icacls X: /grant "ASK-WVD-Users":(M)
+icacls X: /grant "Domain Admins": (F)
+icacls X: /grant "Creator Owner":(OI)(CI)(IO)(M)
+icacls X: /remove "Authenticated Users"
+icacls X: /remove "Builtin\Users"

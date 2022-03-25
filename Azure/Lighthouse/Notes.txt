@@ -1,0 +1,29 @@
+ASK Tenant:7e133024-7fde-4ba2-befa-780f31dbab00
+
+Demo Tenant:56385618-98a1-4d64-80c1-2a7fc23c8922
+
+Billing Reader	Allows read access to billing data	fa23ad8b-c56e-40d8-ac0c-ce449e1d2c64
+
+Tenant Subscription ID:fec9e1a3-8bcc-4a3b-8bb7-69a65a0e9b25
+Role ID
+https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
+(Get-AzADGroup -DisplayName ‘ASK Azure ESS Support’).id
+7f4ad2b2-ed6f-489d-bab5-8e4061e73eec
+
+(Get-AzADGroup -DisplayName ‘ASK Azure Tier 1 Support’).id
+596bd99c-15a7-44f8-8b3c-9350b4f4dd2a
+
+(Get-AzADGroup -DisplayName ‘ASK Azure Proactive Support’).id
+c7ff4fce-4d07-4415-8b07-e95d6e72d660
+
+(Get-AzADGroup -DisplayName ‘ASK Azure Billing Reader’).id
+4bbc383d-c6a9-4bc9-ad5a-4d5e79360caa
+
+(Get-AzADGroup -DisplayName ‘ASK Azure Tier 2 Support’).id
+1df47e69-af38-4de6-a38f-941a6e1d6e96
+
+New-AzDeployment -Name ASKLightHouse `
+                 -Location northcentralus `
+                 -TemplateFile 'DelegatedResourceManagement.json' `
+                 -TemplateParameterFile 'DelegatedResourceManagement.parameters.json' `
+                 -Verbose
