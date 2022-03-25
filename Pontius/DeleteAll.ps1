@@ -1,0 +1,1 @@
+﻿Get-ChildItem -Path C:\Users\cpontius\Documents\TestZip -Include *.* -File -Recurse | foreach { $_.Delete()}

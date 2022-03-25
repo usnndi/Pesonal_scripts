@@ -1,0 +1,2 @@
+﻿$OU = "CN=Users,DC=ftma,DC=com"
+Get-ADUser -filter * -properties DisplayName,userPrincipalName,scriptpath -SearchBase $OU | select DisplayName,userPrincipalName,scriptpath | ConvertTo-Csv | Out-File c:\UserScriptInfo.csv
