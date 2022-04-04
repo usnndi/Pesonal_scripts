@@ -1,4 +1,4 @@
-﻿Start-Transcript -Path C:\CNWI\Scripts\ADPWExpiration\ADPWExpiration.log -Append
+﻿Start-Transcript -Path C:\CNWI\Scripts\ADPWExpiration\ADPWETranscript.log -Append
 #################################################################################################################
 #
 # Password-Expiration-Notifications v20180412
@@ -17,7 +17,7 @@ $SearchBase="OU=Users,OU=Wilcox & Flegel,DC=WilcoxandFlegel,DC=local"
 $smtpServer="wilcoxandflegel-com.mail.protection.outlook.com"
 $expireindays = 5 #number of days of soon-to-expire paswords. i.e. notify for expiring in X days (and every day until $negativedays)
 $negativedays = -3 #negative number of days (days already-expired). i.e. notify for expired X days ago
-$from = "DoNotReply@wilcoxandflegel.com"
+$from = "helpdesk@wilcoxandflegel.com"
 $logging = $true # Set to $false to Disable Logging
 $logNonExpiring = $false
 $logFile = "C:\CNWI\Scripts\ADPWExpiration\PS-pwd-expiry.csv" # ie. c:\mylog.csv
@@ -112,24 +112,46 @@ foreach ($user in $users) {
         "1" {$messageDays = "will expire in 1 day"}
         default {$messageDays = "will expire in " + "$daystoexpire" + " days"}
     }
-
+#########################################################################################################################################################################
+# Email Body Set Here, Note You can use HTML, including Images.
+    #$body="
+    #<p>Your Active Directory password for your <b>$sName</b> account $messageDays.  After expired, you will not be able to login until your password is changed.</p>
+    #<p>Please visit selfservice.example.com to change your password.  Alternatively, on a Windows machine, you may press Ctrl-Alt-Del and select `"Change Password`".</p>
+    #<p>If you do not know your current password, <a href='https://selfservice.example.com/?action=sendtoken'>click here to email a password reset link</a>.</p>
+    #<p>Thank you,<br>
+    #Example.com Administrator<br>
+    #Administrator@example.com<br>
+    #www.example.com/support/<br>
+    #</p>
+    #"
+##########################################################################################################################################################################
     # Email Subject Set Here
     $subject="Your password $messageDays"
+    #Message Body SDet Here
+    $Body ="
+<p>$displayname,</p>
+<p>Your Windows password for your account <b>$sname</b>, will expire in $messageDays. After it expires, you will not be able to log in until your password is changed.</p>
+<ol>
+<li>Please visit <a href='https://rds.wilcoxandflegel.com/RDWeb'>https://rds.wilcoxandflegel.com/RDWeb</a> to change your password.</li>
+<li>In the Domain\username: field enter WILCOXANDFLEGEL\&lt;username&gt;
+<ol>
+<li>e.g. wilcoxandflegel\jSmith</li>
+</ol>
+</li>
+<li>Enter your current password</li>
+<li>Enter your new password</li>
+<li>Confirm your new password</li>
+<li>Click SUBMIT&nbsp;</li>
+</ol>
+<p>Alternatively, you may press Ctrl-Alt-Del on a Windows machine and select Change Password.</p>
+<p>Thank you,</p>
+<p>Wilcox + Flegel Helpdesk<br />
+<a href='mailto:Helpdesk@wilcoxandflegel.com'>Helpdesk@wilcoxandflegel.com</a>
+<br />360-957-2127<br />
+<img src='https://www.wilcoxandflegel.com/wp-content/uploads/2020/04/cropped-WilcoxFavicon-192x192.png' width='70' height='70' /></p>
+"
 
-    # Email Body Set Here, Note You can use HTML, including Images.
-    $body="
-    <p><b>$sName</b></p>
-    
-    <p>Your Active Directory password for your <b>$sName</b> account $messageDays.  After expired, you will not be able to login until your password is changed.</p>
-
-    <p>Please visit selfservice.example.com to change your password.  Alternatively, on a Windows machine, you may press Ctrl-Alt-Del and select `"Change Password`".</p>
-
-    <p>If you do not know your current password, <a href='https://selfservice.example.com/?action=sendtoken'>click here to email a password reset link</a>.</p>
-
-    </p>
-    "
-
-    # If testing-enabled and send-samples, then set recipient to adminEmailAddr else user's EmailAddress
+    #If testing-enabled and send-samples, then set recipient to adminEmailAddr else user's EmailAddress
     if (($testing -eq $true) -and ($samplesSent -lt $sampleEmails)) {
         $recipient = $adminEmailAddr
     } else {
