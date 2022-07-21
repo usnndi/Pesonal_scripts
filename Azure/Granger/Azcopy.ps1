@@ -11,20 +11,16 @@
 $ErrorActionPreference = "Stop"
 
 #Set Date 32 Daya Ago
-$PLAge = 4
+$PLAge = 32
 $StartDate = (get-date (get-date).addDays(-($PLAge)) -UFormat "%Y-%m-%d")
 $Today = Get-Date -UFormat "%Y-%m-%d"
 
 #Get Data
-azcopy list "https://grangerencrearchstor.blob.core.windows.net/pricelistexport/*?sv=2020-10-02&se=2024-07-12T12%3A35%3A27Z&sr=c&sp=rl&sig=FjTeV2e9rYx9oWWKdUwN9%2FD4mZFbzy6KIg85iKhDKYM%3D" --properties "LastModifiedTime; ContentType" > C:\Temp\Granger\PriceListFiles.csv
-(Get-Content -path "C:\Temp\Granger\PriceListFiles.csv" -Raw) -replace 'INFO: ', '' | Where-Object {$_ -ne ""} | Set-Content -Path "C:\Temp\Granger\PriceListFiles.csv"
-Remove-Item -Path C:\Temp\Granger\PriceListFiles*.* -Force
-$env:AZCOPY_CRED_TYPE = "Anonymous";
+azcopy cp "https://grangerencrearchstor.blob.core.windows.net/pricelistexport/*?sv=2020-10-02&se=2024-07-12T12%3A35%3A27Z&sr=c&sp=rl&sig=FjTeV2e9rYx9oWWKdUwN9%2FD4mZFbzy6KIg85iKhDKYM%3D" "C:\Shared Files\Accounting Reports\EnCORE Pricing Data Files" --preserve-last-modified-time --include-after $StartDate
 
-
-#Export-Csv -Path C:\Temp\Granger\PriceListFiles.csv -NoTypeInformation -Delimiter ";"     #> "C:\Temp\Granger\PriceListFiles.txt"
-foreach ($line in Get-Content C:\Temp\Granger\PriceListFiles.txt) {
-    $FileName = $Line.Split(':')[1].Split(';')[0].Trim()
-        Write-Host $FileName
-        Add-Content -Path "C:\Temp\Granger\FinalPriceListFilesList.txt" -Value $FileName | Where-Object {($FileName -contains $StartDate)}
-    }
+#Delete files older than 2 months
+Get-ChildItem "D:\Shared Files\Accounting Reports\EnCORE Pricing Data Files" -Recurse -Force -ea 0 |
+Where-Object {!$_.PsIsContainer -eq $True -and $_.LastWriteTime -lt (Get-Date).AddDays(-32)} |
+ForEach-Object {
+   $_ | Remove-Item -Force
+}
